@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
     const { message, salary, expenses } = await request.json()
 
     // Call the FastAPI backend
-    const response = await fetch("https://ai-financial-advisor-wcy5.onrender.com/api/finance-advice", {
+    const response = await fetch("https://ai-financial-advisor-agt6.onrender.com/api/finance-advice", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

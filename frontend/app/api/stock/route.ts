@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
 
     // Call your FastAPI backend to get stock data
     // This is a simplified version - in a real app, you'd have an endpoint for this
-    const response = await fetch("https://ai-financial-advisor-wcy5.onrender.com/api/finance-advice", {
+    const response = await fetch("https://ai-financial-advisor-agt6.onrender.com/api/finance-advice", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
